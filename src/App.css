@@ -1,0 +1,83 @@
+#root, html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+	background-color: #74EBD5;
+background-image: -webkit-linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+background-image: -moz-linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+background-image: -o-linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+
+
+/* h1{
+	
+	 display: flex;
+  align-items: center;
+  height: 582px;
+	margin-bottom:20%;
+	
+}
+
+.app {
+  height: 100%;
+  background:  url('https://images.unsplash.com/photo-1589450962828-01315a236c58?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+
+/* a lot to learn when it comes to centering stuff */
+.card {  
+	display:flex;
+	align-items:center;
+	text-align:center;
+	padding:5%;
+	border-radius:50px;
+	margin-bottom:20px;
+		background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.0px );
+-webkit-backdrop-filter: blur( 3.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container-sm{
+	margin-top:80px;
+
+}
+
+button {
+margin-top:50px;
+position: fixed;
+ top: 50%;
+ left: 50%;
+  /* bring your own prefixes */
+ transform: translate(-50%, -50%);
+		background: rgba( 255, 255, 255, 0.45 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.0px );
+-webkit-backdrop-filter: blur( 3.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card {
+     padding: 10%;
+	  width:100%;
+	  margin-top:60px;
+  }
+	button{
+		margin-top:80px;
+	}
+}
